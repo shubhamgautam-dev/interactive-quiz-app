@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Interactive Quiz App</title>
+    <meta name="viewport" content="initial-scale=1.0, width=device-width, height=device-height">
+    <link rel="stylesheet" href="StyleSheet.css">
+</head>
+<body>
+    <div class="quiz-content">
+        <h1>Interactive Quiz App</h1>
+        <p>Test Your Knowledge!</p>
+
+        <div class="quiz-container">
+            <h2 id="quiz-question">Question will appear here</h2>
+            <div id ="Answer-Buttons">
+
+                <button class="answer-btn">Answer 1</button>
+                <button class="answer-btn">Answer 2</button>
+                <button class="answer-btn">Answer 3</button>
+                <button class="answer-btn">Answer 4</button>
+            </div>
+            <br>
+          <div>  
+                <button class="next-btn" onclick="changequestion()">Change Question</button>
+                <button class="next-btn" onclick="showoption()">Show Options</button>
+          </div>  
+        
+        </div>
+    </div>
+
+    <script src="Script.js"></script>
+</body>
+</html>
